@@ -1,7 +1,9 @@
-// Eslint Code formatting
 {
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": null
   },
   "javascript.validate.enable": false, //disable all built-in syntax checking
   "editor.codeActionsOnSave": {
@@ -10,6 +12,6 @@
     "source.fixAll.tslint": true,
     "source.organizeImports": true
   },
-  "eslint.validate": ["javascript"],
+  "eslint.validate": ["javascript", "typescript"],
   "eslint.alwaysShowStatus": true
 }
